@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.colombopizza.ui.main.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.colombopizza.ui.main.ui.admin.ManageAdminDetailsFragment"
+        android:label="@string/menu_manage_admin"
+        tools:layout="@layout/fragment_manage_admin_details" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.colombopizza.ui.main.ui.member.ManageMemberDetailsFragment"
+        android:label="@string/menu_manage_member"
+        tools:layout="@layout/fragment_manage_member_details" />
+
+    <fragment
+        android:id="@+id/nav_manage_items"
+        android:name="com.example.colombopizza.ui.main.ui.items.ManageItemsFragment"
+        android:label="@string/menu_manage_items"
+        tools:layout="@layout/fragment_manage_items" />
+
+    <fragment
+        android:id="@+id/nav_view_details"
+        android:name="com.example.colombopizza.ui.main.ui.details.ViewDetailsFragment"
+        android:label="@string/menu_view_details"
+        tools:layout="@layout/fragment_view_details" />
+    <fragment
+        android:id="@+id/nav_view_items"
+        android:name="com.example.colombopizza.customer.ui.menu.MenuFragment"
+        android:label="@string/menu_view_items"
+        tools:layout="@layout/fragment_menu" />
+    <fragment
+        android:id="@+id/nav_map_navigation"
+        android:name="com.example.colombopizza.ui.main.ui.map.NavigationFragment"
+        android:label="fragment_navigation"
+        tools:layout="@layout/fragment_navigation" />
+</navigation>

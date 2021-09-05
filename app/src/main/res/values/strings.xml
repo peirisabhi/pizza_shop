@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Colombo Pizza</string>
+    <string name="title_activity_category">Category</string>
+    <string name="tab_text_1">Pizza</string>
+    <string name="tab_text_2">Bevarages</string>
+    <string name="tab_text_3">Appetizers</string>
+    <string name="title_activity_admin_home">AdminHomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Colombo Pizza</string>
+    <string name="nav_header_subtitle">Best Taste In Town.</string>
+    <string name="nav_header_desc">Colombo Pizza</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_manage_admin">Manage Admin Details</string>
+    <string name="menu_manage_member">Manage Member Details</string>
+    <string name="menu_manage_item">Manage Item Details</string>
+    <string name="menu_manage_orders">Manage Order Details</string>
+    <string name="menu_view_items">View Products</string>
+    <string name="menu_view_navigation">View Navigation</string>
+    <string name="menu_manage_items">Manage Items</string>
+    <string name="menu_view_details">View Details</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_customer_home">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

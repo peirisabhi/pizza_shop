@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lblProID"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblProName"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblNote"
+        android:layout_width="268dp"
+        android:layout_height="47dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblPrice"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/proImage"
+        android:layout_width="268dp"
+        android:layout_height="132dp"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <Button
+        android:id="@+id/btnClick"
+        android:layout_width="268dp"
+        android:layout_height="36dp"
+
+        android:background="@color/lightgreen"
+        android:onClick="getProducts"
+        android:text="Add"
+        android:textColor="@android:color/black"
+        android:textColorHighlight="@color/lightblue"
+        android:textColorHint="@color/lightblue"
+        android:textColorLink="@color/lightblue"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/lightgreen" />
+
+    <Button
+        android:id="@+id/btnClick3"
+        android:layout_width="268dp"
+        android:layout_height="33dp"
+
+        android:background="@color/newyellow"
+        android:text="Cancel"
+        android:textColor="@android:color/black"
+        android:textColorHighlight="@color/newyellow"
+        android:textColorHint="@color/newyellow"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/newyellow" />
+</LinearLayout>
